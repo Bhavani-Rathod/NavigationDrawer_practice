@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings_icon"/>
+
+    <item android:id="@+id/activity"
+        android:title="@string/your_activity"
+        android:icon="@drawable/ic_timer_icon"/>
+
+    <item android:id="@+id/saved"
+        android:title="@string/saved"
+        android:icon="@drawable/ic_saved_icon"/>
+
+    <item android:id="@+id/profile"
+        android:title="@string/profile">
+
+        <menu>
+            <item android:id="@+id/login"
+                android:title="@string/login"
+                android:icon="@drawable/ic_login_icon"/>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/exit"
+        android:title="@string/exit"
+        android:icon="@drawable/ic_exit_icon"/>
+</menu>
